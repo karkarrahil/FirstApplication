@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+   background: linear-gradient(to right, rgb(199, 210, 254), rgb(254, 202, 202), rgb(254, 249, 195));
+   /* height: 100vh; */
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+form{
+    width: 50%;
+    background: linear-gradient(to right bottom, rgb(233, 213, 255), rgb(192, 132, 252), rgb(165, 123, 199));
+    margin: auto;
+    height: 27vh;
+    border: 2px solid rgb(169, 97, 187);
+    border-radius: 10px;
+    margin-top: 250px;
+    
+}
+
+.text{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+   
+
+}
+input{
+    padding: 10px;
+    /* width: 50% !important; */
+    margin-left: 25vw;
+
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+
+}
+button{
+    padding: 10px;
+    margin-left: 25vw;
+    margin-bottom: 23px;
+    margin-top: 13px;
+    width: 50% !important;
+    border: 2px solid aquamarine;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+    background:rgb(201, 78, 201)
+
+    
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#error{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3px;
+}
